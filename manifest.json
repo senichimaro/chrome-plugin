@@ -1,0 +1,6 @@
+{
+    "manifest_version": 1,
+    "name": "Dummy plugin",
+    "description": "Simple code sandbox base plugin",
+    "version": "1.1"
+}
