@@ -1,6 +1,9 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 3,
     "name": "Dummy plugin",
     "description": "Simple code sandbox base plugin",
-    "version": "1.1"
+    "version": "1.1",
+    "background": {
+        "service_worker": "simplecode.js"
+    }
 }
