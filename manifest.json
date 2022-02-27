@@ -1,9 +1,16 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Dummy plugin",
     "description": "Simple code sandbox base plugin",
     "version": "1.1",
+    "permissions": [
+        "activeTab"
+    ],
     "background": {
-        "service_worker": "simplecode.js"
+        "scripts": ["simplecode.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
     }
 }

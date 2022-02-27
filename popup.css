@@ -1,0 +1,8 @@
+body {
+    width: 150px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
